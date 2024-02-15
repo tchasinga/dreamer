@@ -5,7 +5,7 @@ import { LuPhoneCall } from "react-icons/lu";
 export default function Navbar() {
   return (
      <header className="bg-blue-700">
-        <div className="container max-w-4xl mx-auto p-5 text-white flex justify-between items-center">
+        <div className="container max-w-6xl mx-auto p-5 text-white flex justify-between items-center">
             {/* Logo section */}
             <div className="">
                 <Link href="/" className="text-2xl md:text-2xl  font-medium">Dreamer</Link>
