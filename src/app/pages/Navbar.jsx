@@ -15,7 +15,7 @@ export default function Navbar() {
             {/* Desktop section */}
              <div className="">
                 <ul className="flex items-center justify-center gap-3">
-                    <li className="group relative cursor-pointer border py-3">
+                    <li className="group relative cursor-pointer py-3">
                         <Link href="/" className="flex items-center gap-1 justify-center">
                         Home
                         <span>
@@ -32,7 +32,16 @@ export default function Navbar() {
                         </div>
                     </li>
 
-                    <li className="">Service</li>
+                    <li className="group relative cursor-pointer py-3">
+                        <Link href="/" className="flex items-center gap-1 justify-center">
+                        Services
+                        <span>
+                        <FaCaretDown className="transition-all duration-500 group-hover:rotate-180"/>
+                        </span>
+                        </Link>
+                    </li>
+
+
                     <li className="">Contact</li>
                     <li className="flex items-center justify-center gap-2 px-5">
                         <div>
