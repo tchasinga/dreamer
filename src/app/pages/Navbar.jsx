@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { LuPhoneCall } from "react-icons/lu";
 import { IoSunnySharp } from "react-icons/io5";
 import { FaCaretDown } from "react-icons/fa6";
+import Mycomponents from '../components/Mycomponents';
 
 export default function Navbar() {
   return (
@@ -41,11 +42,7 @@ export default function Navbar() {
                         </Link>
                         {/* Adding dropdown section w-full*/}
                         <div className="absolute top-[55px] -left-9 z-[99999] hidden w-[150px] bg-gray-100 p-2 text-black group-hover:block">
-                            <ul className='space-y-2'>
-                                <li className="hover:text-blue-300">Services</li>
-                                <li className="hover:text-blue-300">About us</li>
-                                <li className="hover:text-blue-300">Privacy</li>
-                            </ul>
+                           <Mycomponents />
                         </div>
                     </li>
 
