@@ -18,7 +18,7 @@ export default function Navbar() {
                     <li className="">Contact</li>
                     <li className="">
                         <div>
-                        <LuPhoneCall />
+                        <LuPhoneCall  className="text-xl"/>
                         </div>
                     </li>
                 </ul>
