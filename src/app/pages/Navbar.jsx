@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { LuPhoneCall } from "react-icons/lu";
+import { IoSunnySharp } from "react-icons/io5";
+import { FaCaretDown } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
@@ -13,7 +15,15 @@ export default function Navbar() {
             {/* Desktop section */}
              <div className="">
                 <ul className="flex items-center justify-center gap-3">
-                    <li className="">Home</li>
+                    <li >
+                        <Link href="/" className="flex items-center gap-1 justify-center">
+                        Home
+                        <span>
+                        <FaCaretDown className="transition-all duration-500 group-hover:rotate-180"/>
+                        </span>
+                        </Link>
+                    </li>
+
                     <li className="">Service</li>
                     <li className="">Contact</li>
                     <li className="flex items-center justify-center gap-2 px-5">
@@ -26,7 +36,7 @@ export default function Navbar() {
                         </div>
                     </li>
                     {/* Light and dark mode switcher... */}
-                    
+                    <IoSunnySharp />
                 </ul>
              </div>
             {/* Mobile section */}
