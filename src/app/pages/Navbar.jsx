@@ -26,6 +26,7 @@ export default function Navbar() {
                         </div>
                     </li>
                     {/* Light and dark mode switcher... */}
+                    
                 </ul>
              </div>
             {/* Mobile section */}
