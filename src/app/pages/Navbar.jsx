@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { LuPhoneCall } from "react-icons/lu";
 
 export default function Navbar() {
   return (
@@ -15,6 +16,11 @@ export default function Navbar() {
                     <li className="">Home</li>
                     <li className="">Service</li>
                     <li className="">Contact</li>
+                    <li className="">
+                        <div>
+                        <LuPhoneCall />
+                        </div>
+                    </li>
                 </ul>
              </div>
             {/* Mobile section */}
