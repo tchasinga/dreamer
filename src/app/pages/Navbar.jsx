@@ -39,6 +39,14 @@ export default function Navbar() {
                         <FaCaretDown className="transition-all duration-500 group-hover:rotate-180"/>
                         </span>
                         </Link>
+                        {/* Adding dropdown section w-full*/}
+                        <div className="absolute top-[55px] -left-9 z-[99999] hidden w-[150px] bg-gray-100 p-2 text-black group-hover:block">
+                            <ul className='space-y-2'>
+                                <li className="hover:text-blue-300">Services</li>
+                                <li className="hover:text-blue-300">About us</li>
+                                <li className="hover:text-blue-300">Privacy</li>
+                            </ul>
+                        </div>
                     </li>
 
 
