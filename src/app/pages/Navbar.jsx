@@ -15,7 +15,7 @@ export default function Navbar() {
             {/* Desktop section */}
              <div className="">
                 <ul className="flex items-center justify-center gap-3">
-                    <li >
+                    <li className="group relative cursor-pointer">
                         <Link href="/" className="flex items-center gap-1 justify-center">
                         Home
                         <span>
