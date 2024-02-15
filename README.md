@@ -18,6 +18,9 @@ bun dev
 
 ```bash
 npm install react-countup
+
+import CountUp from 'react-countup';
+
 ```
 Side to review video
 
