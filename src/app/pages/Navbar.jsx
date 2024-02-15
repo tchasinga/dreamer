@@ -18,7 +18,11 @@ export default function Navbar() {
                     <li className="">Contact</li>
                     <li className="">
                         <div>
-                        <LuPhoneCall  className="text-xl"/>
+                        <LuPhoneCall  className="text-4xl  rounded-md p-2 bg-blue-800"/>
+                        </div>
+                        <div className="text-xs font-medium">
+                            <p>Call us</p>
+                            <p>+91 1234567890</p>
                         </div>
                     </li>
                 </ul>
