@@ -33,7 +33,7 @@ export default function Navbar() {
                         </div>
                     </li>
 
-                    <li className="group relative cursor-pointer py-3">
+                    <li className="group relative cursor-pointer py-3" >
                         <Link href="/" className="flex items-center gap-1 justify-center">
                         Services
                         <span>
