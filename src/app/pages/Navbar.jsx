@@ -16,15 +16,16 @@ export default function Navbar() {
                     <li className="">Home</li>
                     <li className="">Service</li>
                     <li className="">Contact</li>
-                    <li className="">
+                    <li className="flex items-center justify-center gap-2 px-5">
                         <div>
                         <LuPhoneCall  className="text-4xl  rounded-md p-2 bg-blue-800"/>
                         </div>
-                        <div className="text-xs font-medium">
+                        <div className="text-xs font-medium flex-col flex justify-center">
                             <p>Call us</p>
                             <p>+91 1234567890</p>
                         </div>
                     </li>
+                    {/* Light and dark mode switcher... */}
                 </ul>
              </div>
             {/* Mobile section */}
